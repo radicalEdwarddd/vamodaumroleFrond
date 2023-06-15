@@ -62,7 +62,6 @@ body {
     background-color: aqua;
     border-radius: 50%;
     color: white;
-    visibility: hidden;
 }
 
 .wButton:hover {
