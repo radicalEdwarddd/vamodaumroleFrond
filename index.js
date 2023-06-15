@@ -14,7 +14,7 @@ function fetching() {
         ClicouNoSimDoBait: clicouNoSimDoBait
     }
 
-    fetch('http://localhost:3000/send-email', {
+    fetch('https://vamodaumrolemeu-api.vercel.app/send-email', {
         method: 'POST',
         headers: {
             'Content-type' : 'application/json'
