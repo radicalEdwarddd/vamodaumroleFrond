@@ -1,0 +1,76 @@
+@import url('https://fonts.cdnfonts.com/css/common-pixel');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(https://rare-gallery.com/thumbs/1054780-landscape-illustration-digital-art-video-games-fantasy-art-pixel-art-skyline-pixels-world-Hyper-Light-Drifter-screenshot.jpg);
+    background-size: cover;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.main h1 {
+    color: white;
+    font-size: 4rem;
+    font-family: 'Common Pixel', sans-serif;
+    
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+    height: 28.5em;
+    justify-content: flex-start;
+}
+
+.rightButton button {
+    background-color: #1BF856;
+    margin-top: 2em;
+    border: none;
+    padding-top: 1em;
+    padding-left: 9em;
+    padding-right: 9em;
+    padding-bottom: 1em;
+    color: white    ;  
+}
+
+.rightButton button:hover {
+   background-color:aqua; 
+}
+
+.wrongButton button{
+    margin-top: 3em;
+    border: none;
+    padding: 0.5em;
+    color: white;
+    background-color: #808B96;
+}
+
+.wButton {
+    padding: 8em;
+    background-color: aqua;
+    border-radius: 50%;
+    color: white;
+}
+
+.wButton:hover {
+    background-color: #1BF856 ;
+}
+
+.haha {
+    margin-top: 2em;
+    border: none;
+    padding: 1.5em;
+    color: purple;
+}
